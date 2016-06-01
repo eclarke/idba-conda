@@ -1,5 +1,6 @@
 build:
-  number: 0
+  number: 1
+  string: longread
 
 package:
   name: idba
@@ -9,6 +10,8 @@ source:
   fn: idba-1.1.2.tar.gz
   url: https://github.com/loneknightpy/idba/releases/download/1.1.2/idba-1.1.2.tar.gz
   md5: 0f0efa1534c7f15ae4bf64473a7709a4
+  patches:
+    - short_sequence.patch
 
 requirements:
   build:
