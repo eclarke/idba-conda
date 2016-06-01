@@ -12,7 +12,10 @@ source:
   md5: 0f0efa1534c7f15ae4bf64473a7709a4
   patches:
     - short_sequence.patch
-
+test:
+  commands:
+    - "idba_ud 2>&1 | grep 'fasta read file (<=256)'"
+    
 requirements:
   build:
     - python

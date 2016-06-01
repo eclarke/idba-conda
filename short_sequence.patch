@@ -1,7 +1,7 @@
-diff --git idba/src/sequence/short_sequence.h idba/src/sequence/short_sequence.h
+diff --git src/sequence/short_sequence.h src/sequence/short_sequence.h
 index 59bf08c..819b1c0 100644
---- idba/src/sequence/short_sequence.h
-+++ idba/src/sequence/short_sequence.h
+--- src/sequence/short_sequence.h
++++ src/sequence/short_sequence.h
 @@ -99,7 +99,7 @@ public:
          return size() < seq.size();
      }
